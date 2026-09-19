@@ -1,0 +1,227 @@
+{
+  "batches": [
+    {
+      "id": "PM-005",
+      "smokeBatch": "YAN-2105",
+      "vat": "GANG-甲-02",
+      "glueBatch": "JIAO-305",
+      "sieveResidue": 2.1,
+      "ash": 0.55,
+      "glueViscosity": 24.6,
+      "status": "可成型",
+      "revision": 2,
+      "createdAt": "2026-09-16T02:10:00.000Z",
+      "updatedAt": "2026-09-18T08:40:00.000Z",
+      "measurements": [
+        {
+          "at": "2026-09-18T07:10:00.000Z",
+          "operator": "周敏",
+          "viscosity": 25
+        },
+        {
+          "at": "2026-09-18T07:25:00.000Z",
+          "operator": "陈桂生",
+          "viscosity": 26
+        }
+      ],
+      "history": [
+        {
+          "reason": "批次调整",
+          "at": "2026-09-17T09:00:00.000Z",
+          "from": {
+            "smokeBatch": "YAN-2104",
+            "glueBatch": "JIAO-302"
+          },
+          "to": {
+            "smokeBatch": "YAN-2105",
+            "glueBatch": "JIAO-305"
+          },
+          "conclusion": {
+            "status": "可成型",
+            "measurements": [
+              {
+                "at": "2026-09-16T03:10:00.000Z",
+                "operator": "周敏",
+                "viscosity": 24
+              },
+              {
+                "at": "2026-09-16T03:24:00.000Z",
+                "operator": "吴柏年",
+                "viscosity": 25
+              }
+            ]
+          },
+          "note": "调整烟料、胶液批次，旧放行立即失效，留档不计入可成型列表"
+        }
+      ],
+      "logs": [
+        {
+          "at": "2026-09-16T02:10:00.000Z",
+          "step": "配胶登记",
+          "note": "绑定烟料 YAN-2104 / 调胶缸 GANG-甲-02 / 胶液 JIAO-302"
+        },
+        {
+          "at": "2026-09-17T09:00:00.000Z",
+          "step": "批次调整",
+          "note": "烟料 YAN-2104→YAN-2105，胶液 JIAO-302→JIAO-305，回到待复核"
+        },
+        {
+          "at": "2026-09-18T07:10:00.000Z",
+          "step": "粘度复测",
+          "note": "周敏 25秒"
+        },
+        {
+          "at": "2026-09-18T07:25:00.000Z",
+          "step": "粘度复测",
+          "note": "陈桂生 26秒，双人双测通过，放行成型"
+        }
+      ]
+    },
+    {
+      "id": "PM-004",
+      "smokeBatch": "YAN-2103",
+      "vat": "GANG-乙-01",
+      "glueBatch": "JIAO-304",
+      "sieveResidue": 2.4,
+      "ash": 0.62,
+      "glueViscosity": 26.1,
+      "status": "复核未过",
+      "revision": 1,
+      "createdAt": "2026-09-17T01:30:00.000Z",
+      "updatedAt": "2026-09-18T03:05:00.000Z",
+      "measurements": [
+        {
+          "at": "2026-09-17T02:00:00.000Z",
+          "operator": "周敏",
+          "viscosity": 25
+        },
+        {
+          "at": "2026-09-18T03:05:00.000Z",
+          "operator": "陈桂生",
+          "viscosity": 28
+        }
+      ],
+      "history": [],
+      "logs": [
+        {
+          "at": "2026-09-17T01:30:00.000Z",
+          "step": "配胶登记",
+          "note": "绑定烟料 YAN-2103 / 调胶缸 GANG-乙-01 / 胶液 JIAO-304"
+        },
+        {
+          "at": "2026-09-17T02:00:00.000Z",
+          "step": "粘度首测",
+          "note": "周敏 25秒"
+        },
+        {
+          "at": "2026-09-18T03:05:00.000Z",
+          "step": "粘度复测",
+          "note": "陈桂生 28秒，超出 25±2 秒，复核未过"
+        }
+      ]
+    },
+    {
+      "id": "PM-003",
+      "smokeBatch": "YAN-2102",
+      "vat": "GANG-甲-03",
+      "glueBatch": "JIAO-303",
+      "sieveResidue": 3.4,
+      "ash": 0.7,
+      "glueViscosity": 24.8,
+      "status": "退回筛料",
+      "revision": 1,
+      "createdAt": "2026-09-16T06:00:00.000Z",
+      "updatedAt": "2026-09-16T06:00:00.000Z",
+      "measurements": [],
+      "history": [],
+      "logs": [
+        {
+          "at": "2026-09-16T06:00:00.000Z",
+          "step": "配胶登记",
+          "note": "绑定烟料 YAN-2102 / 调胶缸 GANG-甲-03 / 胶液 JIAO-303"
+        },
+        {
+          "at": "2026-09-16T06:00:00.000Z",
+          "step": "质量门限",
+          "note": "筛余率 3.4% 超过 3%，退回筛料，不得进入成型"
+        }
+      ]
+    },
+    {
+      "id": "PM-002",
+      "smokeBatch": "YAN-2101",
+      "vat": "GANG-甲-01",
+      "glueBatch": "JIAO-301",
+      "sieveResidue": 2.6,
+      "ash": 0.72,
+      "glueViscosity": 25.2,
+      "status": "待复核",
+      "revision": 1,
+      "createdAt": "2026-09-18T02:20:00.000Z",
+      "updatedAt": "2026-09-18T05:40:00.000Z",
+      "measurements": [
+        {
+          "at": "2026-09-18T05:40:00.000Z",
+          "operator": "周敏",
+          "viscosity": 25
+        }
+      ],
+      "history": [],
+      "logs": [
+        {
+          "at": "2026-09-18T02:20:00.000Z",
+          "step": "配胶登记",
+          "note": "绑定烟料 YAN-2101 / 调胶缸 GANG-甲-01 / 胶液 JIAO-301"
+        },
+        {
+          "at": "2026-09-18T05:40:00.000Z",
+          "step": "粘度首测",
+          "note": "周敏 25秒，等待第二位操作人复测"
+        }
+      ]
+    },
+    {
+      "id": "PM-001",
+      "smokeBatch": "YAN-2099",
+      "vat": "GANG-乙-02",
+      "glueBatch": "JIAO-299",
+      "sieveResidue": 1.8,
+      "ash": 0.45,
+      "glueViscosity": 25,
+      "status": "可成型",
+      "revision": 1,
+      "createdAt": "2026-09-15T01:00:00.000Z",
+      "updatedAt": "2026-09-15T03:20:00.000Z",
+      "measurements": [
+        {
+          "at": "2026-09-15T02:10:00.000Z",
+          "operator": "吴柏年",
+          "viscosity": 24
+        },
+        {
+          "at": "2026-09-15T02:30:00.000Z",
+          "operator": "林砚秋",
+          "viscosity": 26
+        }
+      ],
+      "history": [],
+      "logs": [
+        {
+          "at": "2026-09-15T01:00:00.000Z",
+          "step": "配胶登记",
+          "note": "绑定烟料 YAN-2099 / 调胶缸 GANG-乙-02 / 胶液 JIAO-299"
+        },
+        {
+          "at": "2026-09-15T02:10:00.000Z",
+          "step": "粘度首测",
+          "note": "吴柏年 24秒"
+        },
+        {
+          "at": "2026-09-15T02:30:00.000Z",
+          "step": "粘度复测",
+          "note": "林砚秋 26秒，双人双测通过，放行成型"
+        }
+      ]
+    }
+  ]
+}
